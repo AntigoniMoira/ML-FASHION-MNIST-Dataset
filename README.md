@@ -59,7 +59,7 @@ Below is a summary of the best average validation accuracy (from 5-fold cross-va
 
 ### 🎯 Tuned SVM Performance
 
-After hyperparameter tuning using grid search (on `C` and `gamma`), the SVM model achieved a **validation accuracy of 90.5%** using normalized PCA-transformed data.
+After performing hyperparameter tuning on **`C`** and **`kernel`**, the best SVM configuration achieved a **validation accuracy of 90.5%** using **normalized PCA-transformed data**.
 
 ![Tuned SVM Results](images/tuned_SVM_results.png)
 
