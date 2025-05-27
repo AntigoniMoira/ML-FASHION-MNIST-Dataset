@@ -57,12 +57,6 @@ Below is a summary of the best average validation accuracy (from 5-fold cross-va
 - **SVM** consistently outperformed other models, especially when used with normalized PCA-transformed data.
 - Feature selection and dimensionality reduction (PCA) had a significant impact on both performance and training efficiency.
 
-### 🧪 Evaluation Method
-
-- **5-fold Cross-Validation** was applied to estimate model generalization performance.
-- Accuracy was averaged across folds to report final scores.
-
-
 ### 📌 Notes
 - All models were built using **Scikit-learn**.
 - Visualizations were created using **Matplotlib** and **Seaborn**.
@@ -75,4 +69,3 @@ Below is a summary of the best average validation accuracy (from 5-fold cross-va
   <sup>1</sup>
   <a href="https://www.kaggle.com/datasets/zalando-research/fashionmnist" target="_blank">Fashion MNIST Database</a>
 </p>
-# ML-FASHION_MNIST_Dataset
