@@ -28,6 +28,12 @@ Multiple preprocessing methods were applied:
 
 - **Binarized PCA data**
 
+### 🔍 Pixel-Label Correlation Map
+
+To better understand which parts of the image contribute most to classification, we computed the **absolute correlation between each pixel and the target label**. Red areas indicate pixels with higher correlation to specific classes.
+
+![Pixel-Label Correlation](images/pixel_label_correlation.png)
+
 Evaluation was conducted using **5-fold cross-validation**, with **accuracy** as the primary metric.
 
 ## 🧪 Results
