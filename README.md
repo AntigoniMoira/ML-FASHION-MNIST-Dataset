@@ -57,6 +57,12 @@ Below is a summary of the best average validation accuracy (from 5-fold cross-va
 - **SVM** consistently outperformed other models, especially when used with normalized PCA-transformed data.
 - Feature selection and dimensionality reduction (PCA) had a significant impact on both performance and training efficiency.
 
+### 🎯 Tuned SVM Performance
+
+After hyperparameter tuning using grid search (on `C` and `gamma`), the SVM model achieved a **validation accuracy of 90.5%** using normalized PCA-transformed data.
+
+![Tuned SVM Results](images/tuned_SVM_results.png)
+
 ### 📌 Notes
 - All models were built using **Scikit-learn**.
 - Visualizations were created using **Matplotlib** and **Seaborn**.
